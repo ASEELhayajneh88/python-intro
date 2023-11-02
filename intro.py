@@ -1,4 +1,5 @@
-print('hello word')
+# import numbers
+# print('hello word')
 # sintacs in py
 # data type in py
 # 1- string
@@ -60,23 +61,152 @@ print('hello word')
    
    
    
-mypages={
-    "mypages1":{
-  'Title' : 'home page',
-  'welcome' : 'hi to mypage',
-  'content' : ['about,preview']
-  },
-    "mypages2":{
-    'Title' : "good adventure",
-    'welcome' : 'hi to mypage',
-      'content' : ['about,preview']
-  },
-    "mypages3": {
-    'Title' : 'home page',
-  'welcome' : 'Thats great',
-  'content' : ['about,preview']
-  }
-    }
-for i in mypages:
-    print (i, mypages[i])
+# mypages={
+#     "mypages1":{
+#   'Title' : 'home page',
+#   'welcome' : 'hi to mypage',
+#   'content' : ['about,preview']
+#   },
+#     "mypages2":{
+#     'Title' : "good adventure",
+#     'welcome' : 'hi to mypage',
+#       'content' : ['about,preview']
+#   },
+#     "mypages3": {
+#     'Title' : 'home page',
+#   'welcome' : 'Thats great',
+#   'content' : ['about,preview']
+#   }
+#     }
+
+
+# for i in mypages:
+#     print (i, mypages[i])
+    
+   
+   
+# chose1= input ('enter your choice:') 
+# if chose1 != numbers:
+#   print('wrong input')
+
+# print(chose1)a
+# if False:
+#       print('a')
+# else:
+#       print('b')
+
+
+#finction in py :is a block of code which only 
+# def myfunction():
+# print ('hello)
+#myfunction()
+# How to check if number is odd or even
+
+# num= int(input("Enter number: "))
+
+# if num % 2 == 0:
+#     print(" is even")
+# else:
+#     print(" is odd")
+
+# num=int(input("Enter any number: "))
+# #check the prime number using num>1 condition
+# if num>1:
+#     for i in range(2,num):
+#         if(num%i)==0:
+#             print(num," is not a prime number")
+#             break;
+#     else:
+#         print(num," is a prime number")
+
+
+
+# def my_function(fname):
+#  print(fname + " Refsnes")
+
+# my_function("Emil")
+# my_function("Tobias")
+# my_function("Linus")
+
+
+
+
+# def number(i):
+#     if i % 2 == 0:
+
+#         return "even"
+#     else:
+
+#         return "odd"
+# i = int(input("Enter a number: "))
+# result = i(i)
+# print("The number is", result)1
+
+
+#while loop
+# i=0
+# wileTest = True
+# while wileTest:
+    
+#     if i == 5:
+#        i+=1
+#        continue
+#     print(i)
+#     i+=1
+#     if i == 10:
+#         break
+  
+
+# name= input('enter name')
+# print(name)
+# # person 
+
+allperson= []
+person= {}
+print('welcom to our app')
+while True:
+    print('1- add new person')
+    print('2-see all person')
+    print('3-Exit')
+    choice = input('enter your choice:')
+    if choice =='1':
+        
+     name = input('enter your name :')
+     age= ('enter age :')
+     age= input("Enter your age: ")
+     if age.isdigit():
+      print(age)
+     else:
+         if age.isalpha():
+           print("error. Please enter a number.")
+
+     
+     job= input('enter job :')
+     
+     person['name']= name
+     person['age']= age
+     person['job']= job
+     allperson.append(person)
+     
+     print ('added sucsefully')
+    elif choice == '2':
+        counter = 1
+        for i in allperson:
+            print ('person',counter)
+            for key in i:
+             print('    ',key,':',i[key])  
+             print(i)
+        counter+=1
+    elif choice=='3':
+        
+        break
+            
+     
+     
+  
+
+
+
+
+
     
