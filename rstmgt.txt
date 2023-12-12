@@ -1,0 +1,39 @@
+
+Bill reference number = 247804
+Fries * 0.00 = Rs 0.00
+Noodles * 0.00 = Rs 0.00
+Soup * 0.00 = Rs 0.00
+Burger * 0.00 = Rs 0.00
+Sandwich * 0.00 = Rs 0.00
+Drinks * 0.00 = Rs 0.00
+Cost of Meal = Rs 0.00
+GST = Rs 0.00
+SGST = Rs 0.00
+Sub Total = Rs 0.00
+Total Cost = Rs 0.00
+
+Bill reference number = 247804
+Fries * 0.00 = Rs 0.00
+Noodles * 0.00 = Rs 0.00
+Soup * 0.00 = Rs 0.00
+Burger * 0.00 = Rs 0.00
+Sandwich * 0.00 = Rs 0.00
+Drinks * 0.00 = Rs 0.00
+Cost of Meal = Rs 0.00
+GST = Rs 0.00
+SGST = Rs 0.00
+Sub Total = Rs 0.00
+Total Cost = Rs 0.00
+
+Bill reference number = 210925
+Fries * 1.00 = Rs 140.00
+Noodles * 0.00 = Rs 0.00
+Soup * 0.00 = Rs 0.00
+Burger * 1.00 = Rs 260.00
+Sandwich * 1.00 = Rs 300.00
+Drinks * 0.00 = Rs 0.00
+Cost of Meal = Rs 700.00
+GST = Rs 63.00
+SGST = Rs 63.00
+Sub Total = Rs 700.00
+Total Cost = Rs 826.00

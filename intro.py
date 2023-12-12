@@ -544,15 +544,6 @@
         
 
 
-          
-
-
-
-
-
-
-
-
 
 
 # class Restaurant:
@@ -583,13 +574,15 @@
 #          print ("Description of the Item",self.menudic[id]['description:'])
 #         else:
 #          print ('Item is not available')
+         
 
 #  def delete_item(self):
-#         if id in self.menudic:
-#                 del self.menudic[id]
-#                 print ('Item deleted successfully')
-#         else:
-#                 print ('Item is not available')
+#       if id in self.menudic:
+#                del self.menudic[id]
+#                print ('Item deleted successfully')
+#       else:
+#                print ('Item is not available')
+                
 #  def placeorder(self):
 #        item= input('Please enter IDS seperated by comma ').split(',')
 #        name= input('Please enter your name: ')
@@ -606,7 +599,7 @@
 #        print(self.orderlist)
        
 
-# def vieworders(self):
+#  def vieworders(self):
 #     for order in self.orderlist:
 #      print(order) 
                       
@@ -647,33 +640,139 @@
 #         break
 #  else:
 #    print("Wrong Choice ")
+ # json:js obj nation:{
+     
+ #}        
          
-         
+# database= open('./database.txt','w')
+# database.write('test now')
+# database= open('./database.txt','r')
+
+# print(database.read())
+
+
+
+# def load_data():
+#     try:
+#         data=open('./database.txt','r')
+#         data=json.load(data)
+#         return data
+
+#     except Exception as e:
+#        print(load_data)
+    
+    
+
+
+# private an public >
+# school=> 
 
 
 
 
 
 
+# class student:
+#     def __init__(self,name,age,id,phone,address,email,password,__tawjihimark):
+#         self.name=name,
+#         self.age=age,
+#         self.__id=id,
+#         self.__phone=phone,
+#         self.email=email,
+#         self.__password=password,
+#         self.address=address,
+#         self.__tawjihimark=__tawjihimark
+#         self.major=self.getmajor(self.__tawjihimark)
+    
+#     def getphone(self):
+#         return self.__phone
+#     def setphone(self,newphone):
+#         self.__phone=newphone
+#     def getmajor (self,mark):
+#         if mark>=90:
+#             return'doctor'
+#         elif mark>=80:
+#             return'eng'
+        
+#         elif mark>=70:
+#             return'lawer'
+        
+        
+          
+# student1=student('aseel',24,1234,888,'address','email','444',70)
+# # print(student1.__password)
+# print(student1.getId())
+# student1.setphone(88888)
+# print(student1.getphone())
+# print(student1.major)
+
+#  task: creat a class called teacher with att as public :> name,age,major,phone,address,email
+#  and privet :> id,password,StudentsList > list of students with the same major > you cant add any student that
+#  have a different major
+#  steps : creat a list of students and crat a teacher that have all the student with the same major
 
 
 
+class Animal():
+    def __init__(self,name):
+        self.name=name
+    def makeSound(self):
+        print('i am an animal')
+
+class Dog(Animal):
+
+    def test(self):
+        print('test')
+
+    #  overloadin , overwrite> same method name but different behavior
+    def makeSound(self):
+        print('i am a dog')
 
 
 
+animal1= Animal('animal1')
+
+dog1= Dog('dog1')
+
+animal1.makeSound()
+dog1.makeSound()
 
 
 
+    
+
+                             
+                     
+
+
+# class GrandFather:
+#     def __init__(self,family,city):
+#         self.family=family
+#         self.city=city
 
 
 
+# class Father:
+
+#     def __init__(self, name, age, job):
+#         self.name = name
+#         self.age = age
+#         self.job = job
+
+# class Mother:
+#     def __init__(self,eyesColor):
+#         self.eyesColor=eyesColor
 
 
+# class Son(GrandFather,Father,Mother):
 
+#     def __init__(self, name, age, job,family,major,city,eyesColor):
+#         GrandFather.__init__(self,family,city)
+#         Father.__init__(self,name,age,job)
+#         Mother.__init__(self,eyesColor)
+#         self.major=major
+#     def __str__(self):
+#         return f'name : {self.name} , age : {self.age} , job : {self.job} , major : {self.major} , family : {self.family} , city : {self.city} , eyesColor : {self.eyesColor}'
 
-
-
-
-
-
-
+# son1=Son('ahmad',20,'developer','family','CS','city','blu')
+# print(son1)

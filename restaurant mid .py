@@ -1,3 +1,11 @@
+
+import tkinter as tk
+from tkinter import PhotoImage, ttk
+from tkinter import messagebox
+root= tk.Tk()
+root.geometry('800x600+0+0')
+root.title('Roaster and Coffee')
+
 class Restaurant:
  def __init__(self): 
        self.menudic={}
@@ -28,11 +36,16 @@ class Restaurant:
          print ('Item is not available')
 
  def delete_item(self):
+        id=input("Enter the item id you want to delete ")
         if id in self.menudic:
-                del self.menudic[id]
-                print ('Item deleted successfully')
+               del self.menudic[id]
+               print ("The item has been deleted from menu")
         else:
-                print ('Item is not available')
+               print ("Item is not available")
+               
+      
+     
+                
  def placeorder(self):
        item= input('Please enter ID ')
        name= input('Please enter your name: ')
@@ -50,8 +63,9 @@ class Restaurant:
        
 
 def vieworders(self):
-    for order in self.orderlist:
-     print(order) 
+       
+ for order in self.orderlist:
+        print(order) 
                       
         
         
@@ -90,5 +104,7 @@ while True:
         break
  else:
    print("Wrong Choice ")
-         
-         
+   
+   
+   root.mainloop()
+     
