@@ -6,7 +6,8 @@ from PIL import ImageTk,Image
 root= tk.Tk()
 root.geometry('800x600+0+0')
 root.title('Roaster and Coffee')
-photo = PhotoImage(fille="C:\Users\computer\Downloads\tk.png")
+# photo =PhotoImage(file="C:\\Users\\computer\\Downloads\\tk.png")
+# photo = Image.open('tk.png')
 
 
 def delete_pagees():
@@ -26,6 +27,11 @@ def home_page():
 
     lb= tk.Label(home_frame, text='ROASTER & AL-ASEEL COFFEE\n\n\n Roasted And Al-Aseel Coffee.Unique, \nHere You Will Find Everything That Is Delicious And Suits Your High Taste.\n' , font=('Bold,50'),)    
     lb.pack()
+    # photo=Image.open('as.jpg')
+    photo=ImageTk.PhotoImage(Image.open("as.jpg"))
+
+    label=tk.Label(home_frame,image=photo)
+    label.pack()
     
     home_frame.pack(pady=20)
     
